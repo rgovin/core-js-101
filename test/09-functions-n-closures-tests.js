@@ -87,6 +87,7 @@ describe('09-functions-n-closures-tasks', () => {
     };
 
     const actual = tasks.retry(fn, maxAttemps)();
+
     assert.equal(actual, expected);
   });
 
